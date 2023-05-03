@@ -1,0 +1,41 @@
+.nav-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 42px;
+    justify-content: center;
+    margin: 60px 0;
+    align-items: center;
+}
+
+.nav--element {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: padding 0.3s ease-in-out;
+}
+
+.active, .nav--element:hover{
+    background: #FFFFFF;
+    color: #0A2640;
+    border-radius: 41px;
+    padding: 13px 23px;
+}
+
+@media screen and (max-width: 767px) {
+    nav {
+        margin: 60px 0 0 0;
+    }
+
+    nav .nav-wrapper > *:not(:last-of-type),
+    nav .nav-wrapper > img {
+      display: none;
+    }
+    
+    nav .nav--element:last-of-type {
+      margin-right: auto;
+      margin-left: auto;
+      text-align: center;
+    }
+  }

@@ -1,0 +1,36 @@
+.opinion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 294px;
+    min-height: 367px;
+    background-color: #0A2640;
+    border-radius: 30px;
+    padding: 0 43px 22px 43px;
+    margin-top: 50px;
+}
+
+.client {
+    border-radius: 100%;
+    margin: -50px 0 0 0;
+    box-shadow:
+    0 0 0 4px #69E6A6,
+    0 0 0 13px #F5F5F5;
+    margin-bottom: 17px;
+}
+
+.opinions {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .opinions {
+        display: flex;
+        flex-direction: column;
+        gap: 34px;
+        place-items: center;
+    }
+}

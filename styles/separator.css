@@ -1,0 +1,39 @@
+.separator {
+    margin: 110px 0 80px 0;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 40px;
+    color: #0A2640;
+    position: relative;
+    margin-bottom: 8px;
+}
+
+h2::before,
+h2::after {
+  content: '';
+  display: inline-block;
+  width: 250px;
+  height: 1px;
+  background-color: #99A3AA;
+  margin-right: 59px;
+  vertical-align: middle;
+}
+
+h2::after {
+  margin-right: 0;
+  margin-left: 59px;
+  vertical-align: middle;
+}
+
+@media only screen and (max-width: 768px) {
+    h2::before,
+    h2::after {
+     display: none;
+}
+
+    h2::after {
+    display: none;
+    }
+}

@@ -1,0 +1,103 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  ::after, ::before {
+    box-sizing: inherit;
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F5F5F5;
+    background-image: url('/images/tło-alon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    object-fit: cover;
+    position: relative;
+    height: 821px;
+}
+main {
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 0 20px;
+}
+
+.header {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 38px;
+}
+
+.paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    word-wrap: break-word;
+    width: 66%;
+    margin: 0 auto;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.section--title {
+    color: #0A2640;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.company--logo {
+    display: block;
+    margin: auto;
+}
+
+.svg-container {
+    position: absolute;
+    left: 0;
+    top: 2600px;
+    transform: translateY(-50%);
+    animation: float 5s infinite;
+  }
+
+.svg-container-flip {
+    position: absolute;
+    top: 1700px;
+    right: 0;
+    animation: float 5s ease-in-out infinite;
+}
+
+.flip {
+        transform: scaleX(-1);
+}
+
+  
+  @keyframes float {
+    0% {
+      transform: translateY(-50%) translateX(0);
+    }
+    50% {
+      transform: translateY(-60%) translateX(-10px);
+    }
+    100% {
+      transform: translateY(-50%) translateX(0);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .svg-container {
+        display: none;
+    }
+    
+    .svg-container-flip {
+        display: none;
+    }
+}
