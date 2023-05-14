@@ -1,244 +1,386 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/body.css">
-    <link rel="stylesheet" href="./styles/notice.css">
-    <link rel="stylesheet" href="./styles/separator.css">
-    <link rel="stylesheet" href="./styles/form.css">
-    <link rel="stylesheet" href="./styles/footer.css">
-    <link rel="stylesheet" href="./styles/opinions.css">
-    <link rel="stylesheet" href="./styles/trustus.css">
-    <link rel="stylesheet" href="./styles/services.css">
-    <link rel="stylesheet" href="./styles/baner.css">
-    <link rel="stylesheet" href="./styles/nav.css">
-    <script src="script.js" defer></script> 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/body.css" />
+    <link rel="stylesheet" href="./styles/notice.css" />
+    <link rel="stylesheet" href="./styles/separator.css" />
+    <link rel="stylesheet" href="./styles/form.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/opinions.css" />
+    <link rel="stylesheet" href="./styles/trustus.css" />
+    <link rel="stylesheet" href="./styles/services.css" />
+    <link rel="stylesheet" href="./styles/baner.css" />
+    <link rel="stylesheet" href="./styles/nav.css" />
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>APLON - Zaopiekujemy się twoim biznesem.</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav>
-        <div class="nav-wrapper">
-          <img src="images/logo-ap.svg" alt="business logo short"/>
-          <a class="nav--element" href="#o-nas">o nas</a>
-          <a class="nav--element" href="#usługi">usługi</a>
-          <a class="nav--element" href="#zaufali-nam">zaufali nam</a>
-          <a class="nav--element" href="#opinie">opinie</a>
-          <a class="nav--element active" href="#kontakt">kontakt</a>
-        </div>
-      </nav>
+      <div class="nav-wrapper">
+        <img src="images/logo-ap.svg" alt="business logo short" />
+        <a class="nav--element" href="#o-nas">o nas</a>
+        <a class="nav--element" href="#usługi">usługi</a>
+        <a class="nav--element" href="#zaufali-nam">zaufali nam</a>
+        <a class="nav--element" href="#opinie">opinie</a>
+        <a class="nav--element active" href="#kontakt">kontakt</a>
+      </div>
+    </nav>
     <main>
-        <div class="svg-container">
-            <svg width="482" height="721" viewBox="0 0 482 721" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M287.745 329.992L287.281 329.422L286.921 330.064C227.452 436.441 142.95 528.648 42.7028 595.311C-33.8131 646.126 -118.372 682.149 -208.59 702.368C-270.426 716.239 -333.315 722.186 -395.984 720.09L-396.001 720.089L-396.017 720.09C-458.686 722.185 -521.559 716.238 -583.41 702.368C-673.628 682.149 -758.173 646.126 -834.704 595.311C-934.951 528.648 -1019.44 436.441 -1078.91 330.064L-1079.27 329.422L-1079.73 329.992C-1105.5 361.613 -1147.2 376.908 -1187.63 367.846C-1197.38 365.655 -1206.85 362.071 -1215.78 357.242C-1268.97 328.215 -1289.03 260.649 -1260.54 206.587C-1198.8 89.5529 -1074.67 8.75482 -944.321 0.717422L-944.32 0.717385C-915.134 -1.11698 -887.012 8.72754 -865.149 28.4687L-865.149 28.4691C-843.256 48.1964 -830.234 75.3871 -828.486 105.071L-828.485 105.071C-825.69 152.023 -852.128 194.055 -891.774 212.759L-892.251 212.984L-892.001 213.448C-849.575 292.277 -788.316 360.298 -714.969 409.022C-631.725 464.416 -533.749 495.195 -434.599 497.787C-421.733 498.166 -408.881 498.04 -396 497.366C-383.119 498.019 -370.268 498.154 -357.388 497.787C-258.238 495.195 -160.261 464.416 -77.0162 409.022C-3.67041 360.298 57.5756 292.277 100.001 213.448L100.251 212.984L99.7739 212.759C60.1279 194.055 33.7019 152.023 36.4843 105.071C38.231 75.3873 51.2697 48.1965 73.1628 28.4691L72.8281 28.0976L73.1632 28.4687C95.0261 8.72748 123.134 -1.11907 152.32 0.717383L152.321 0.717422C282.673 8.75482 406.815 89.5529 468.54 206.587C497.034 260.649 476.97 328.217 423.779 357.243C414.849 362.071 405.381 365.655 395.639 367.846C355.199 376.908 313.499 361.612 287.745 329.992Z" stroke="#69E6A6"/>
-            </svg>
+      <div class="svg-container">
+        <svg
+          width="482"
+          height="721"
+          viewBox="0 0 482 721"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M287.745 329.992L287.281 329.422L286.921 330.064C227.452 436.441 142.95 528.648 42.7028 595.311C-33.8131 646.126 -118.372 682.149 -208.59 702.368C-270.426 716.239 -333.315 722.186 -395.984 720.09L-396.001 720.089L-396.017 720.09C-458.686 722.185 -521.559 716.238 -583.41 702.368C-673.628 682.149 -758.173 646.126 -834.704 595.311C-934.951 528.648 -1019.44 436.441 -1078.91 330.064L-1079.27 329.422L-1079.73 329.992C-1105.5 361.613 -1147.2 376.908 -1187.63 367.846C-1197.38 365.655 -1206.85 362.071 -1215.78 357.242C-1268.97 328.215 -1289.03 260.649 -1260.54 206.587C-1198.8 89.5529 -1074.67 8.75482 -944.321 0.717422L-944.32 0.717385C-915.134 -1.11698 -887.012 8.72754 -865.149 28.4687L-865.149 28.4691C-843.256 48.1964 -830.234 75.3871 -828.486 105.071L-828.485 105.071C-825.69 152.023 -852.128 194.055 -891.774 212.759L-892.251 212.984L-892.001 213.448C-849.575 292.277 -788.316 360.298 -714.969 409.022C-631.725 464.416 -533.749 495.195 -434.599 497.787C-421.733 498.166 -408.881 498.04 -396 497.366C-383.119 498.019 -370.268 498.154 -357.388 497.787C-258.238 495.195 -160.261 464.416 -77.0162 409.022C-3.67041 360.298 57.5756 292.277 100.001 213.448L100.251 212.984L99.7739 212.759C60.1279 194.055 33.7019 152.023 36.4843 105.071C38.231 75.3873 51.2697 48.1965 73.1628 28.4691L72.8281 28.0976L73.1632 28.4687C95.0261 8.72748 123.134 -1.11907 152.32 0.717383L152.321 0.717422C282.673 8.75482 406.815 89.5529 468.54 206.587C497.034 260.649 476.97 328.217 423.779 357.243C414.849 362.071 405.381 365.655 395.639 367.846C355.199 376.908 313.499 361.612 287.745 329.992Z"
+            stroke="#69E6A6"
+          />
+        </svg>
+      </div>
+      <div class="svg-container-flip">
+        <svg
+          class="flip"
+          width="482"
+          height="721"
+          viewBox="0 0 482 721"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M287.745 329.992L287.281 329.422L286.921 330.064C227.452 436.441 142.95 528.648 42.7028 595.311C-33.8131 646.126 -118.372 682.149 -208.59 702.368C-270.426 716.239 -333.315 722.186 -395.984 720.09L-396.001 720.089L-396.017 720.09C-458.686 722.185 -521.559 716.238 -583.41 702.368C-673.628 682.149 -758.173 646.126 -834.704 595.311C-934.951 528.648 -1019.44 436.441 -1078.91 330.064L-1079.27 329.422L-1079.73 329.992C-1105.5 361.613 -1147.2 376.908 -1187.63 367.846C-1197.38 365.655 -1206.85 362.071 -1215.78 357.242C-1268.97 328.215 -1289.03 260.649 -1260.54 206.587C-1198.8 89.5529 -1074.67 8.75482 -944.321 0.717422L-944.32 0.717385C-915.134 -1.11698 -887.012 8.72754 -865.149 28.4687L-865.149 28.4691C-843.256 48.1964 -830.234 75.3871 -828.486 105.071L-828.485 105.071C-825.69 152.023 -852.128 194.055 -891.774 212.759L-892.251 212.984L-892.001 213.448C-849.575 292.277 -788.316 360.298 -714.969 409.022C-631.725 464.416 -533.749 495.195 -434.599 497.787C-421.733 498.166 -408.881 498.04 -396 497.366C-383.119 498.019 -370.268 498.154 -357.388 497.787C-258.238 495.195 -160.261 464.416 -77.0162 409.022C-3.67041 360.298 57.5756 292.277 100.001 213.448L100.251 212.984L99.7739 212.759C60.1279 194.055 33.7019 152.023 36.4843 105.071C38.231 75.3873 51.2697 48.1965 73.1628 28.4691L72.8281 28.0976L73.1632 28.4687C95.0261 8.72748 123.134 -1.11907 152.32 0.717383L152.321 0.717422C282.673 8.75482 406.815 89.5529 468.54 206.587C497.034 260.649 476.97 328.217 423.779 357.243C414.849 362.071 405.381 365.655 395.639 367.846C355.199 376.908 313.499 361.612 287.745 329.992Z"
+            stroke="#69E6A6"
+          />
+        </svg>
+      </div>
+      <section class="welcome cover" id="o-nas">
+        <img class="logo" src="images/logo.svg" alt="business logo" />
+        <h1 class="header">Zaopiekujemy się twoim biznesem.</h1>
+        <p class="paragraph">
+          Jesteśmy małą firmą reklamową z siedzibą w Łańcucie. Od kilku lat
+          dbamy o dobre imie naszych klientów oraz pomagamy im w osiąganiu
+          sukcesów biznesowych. Dla nas nie ma rzeczy niemożliwych, a do każdego
+          klienta podchodzimy indywidualnie, aby spełnić oczekiwania nawet
+          najbardziej wymagających klientów.
+        </p>
+        <div>
+          <img
+            class="logo realization"
+            src="images/imagescale1.png"
+            alt="computer"
+          />
+          <img
+            class="logo realization"
+            src="images/imagescale3.png"
+            alt="camera"
+          />
+          <img
+            class="logo realization"
+            src="images/imagescale2.png"
+            alt="camera"
+          />
         </div>
-        <div class="svg-container-flip">
-            <svg class="flip" width="482" height="721" viewBox="0 0 482 721" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M287.745 329.992L287.281 329.422L286.921 330.064C227.452 436.441 142.95 528.648 42.7028 595.311C-33.8131 646.126 -118.372 682.149 -208.59 702.368C-270.426 716.239 -333.315 722.186 -395.984 720.09L-396.001 720.089L-396.017 720.09C-458.686 722.185 -521.559 716.238 -583.41 702.368C-673.628 682.149 -758.173 646.126 -834.704 595.311C-934.951 528.648 -1019.44 436.441 -1078.91 330.064L-1079.27 329.422L-1079.73 329.992C-1105.5 361.613 -1147.2 376.908 -1187.63 367.846C-1197.38 365.655 -1206.85 362.071 -1215.78 357.242C-1268.97 328.215 -1289.03 260.649 -1260.54 206.587C-1198.8 89.5529 -1074.67 8.75482 -944.321 0.717422L-944.32 0.717385C-915.134 -1.11698 -887.012 8.72754 -865.149 28.4687L-865.149 28.4691C-843.256 48.1964 -830.234 75.3871 -828.486 105.071L-828.485 105.071C-825.69 152.023 -852.128 194.055 -891.774 212.759L-892.251 212.984L-892.001 213.448C-849.575 292.277 -788.316 360.298 -714.969 409.022C-631.725 464.416 -533.749 495.195 -434.599 497.787C-421.733 498.166 -408.881 498.04 -396 497.366C-383.119 498.019 -370.268 498.154 -357.388 497.787C-258.238 495.195 -160.261 464.416 -77.0162 409.022C-3.67041 360.298 57.5756 292.277 100.001 213.448L100.251 212.984L99.7739 212.759C60.1279 194.055 33.7019 152.023 36.4843 105.071C38.231 75.3873 51.2697 48.1965 73.1628 28.4691L72.8281 28.0976L73.1632 28.4687C95.0261 8.72748 123.134 -1.11907 152.32 0.717383L152.321 0.717422C282.673 8.75482 406.815 89.5529 468.54 206.587C497.034 260.649 476.97 328.217 423.779 357.243C414.849 362.071 405.381 365.655 395.639 367.846C355.199 376.908 313.499 361.612 287.745 329.992Z" stroke="#69E6A6"/>
-            </svg>
+      </section>
+      <div class="subheader separator">
+        <h2>Usługi</h2>
+        <img src="images/subheder-decoration.svg" alt="business logo" />
+      </div>
+      <section class="services">
+
+        <div class="section--service" id="usługi">
+          <img src="images/live.svg" alt="camera" />
+          <h3 class="section--title">Transmisje live</h3>
+          <p class="paragraph services">
+            Nasze transmisje są oparte o doświadczenie oraz profesjonalny sprzęt
+            będący nieodzowny elementem naszej pracy. Na przestrzeni dwóch lat,
+            zrealizowaliśmy ok. 20 emisji live, głównie z wydarzeń sportowych.
+            Do postprodukcji naszych materiałów, wykorzystujemy profesjonalne
+            oprogramowanie, która pozwala nam tworzyć powtórki, zarządzać
+            ujęciami, czy też nadawać w jakości FullHD.
+          </p>
         </div>
-        <section class="welcome cover" id="o-nas">
-            <img class="logo" src="images/logo.svg" alt="business logo"/>
-            <h1 class="header">Zaopiekujemy się twoim biznesem.</h1>
-            <p class="paragraph">Jesteśmy małą firmą reklamową z siedzibą w Łańcucie. Od kilku lat dbamy o dobre imie naszych klientów oraz pomagamy im w osiąganiu sukcesów biznesowych. Dla nas nie ma rzeczy niemożliwych, a do każdego klienta podchodzimy indywidualnie, aby spełnić oczekiwania nawet najbardziej wymagających klientów.</p>
-                <div>
-                    <img class="logo realization" src="images/imagescale1.png" alt="computer"/>
-                    <img class="logo realization" src="images/imagescale3.png" alt="camera"/>
-                    <img class="logo realization" src="images/imagescale2.png" alt="camera"/>
-                </div>
-        </section>
-        <div class="subheader separator">
-            <h2>Usługi</h2>
-            <img src="images/subheder-decoration.svg" alt="business logo"/>
+
+        <div class="section--service">
+          <img src="images/video.svg" alt="camera" />
+          <h3 class="section--title">Produkcja video</h3>
+          <p class="paragraph services">
+            Tworzymy treści video, które mogą posłużyć do promowania właśnej
+            marki osobistej lub sprzedaży produktu, usługi. Zapewniamy płynne
+            oraz stabilne ujęcia, a na koniec profesjonalny montaż i obróbka
+            materiału.
+          </p>
         </div>
-        <section class="services">
-            <div class="section--service" id="usługi">
-                <img src="images/live.svg" alt="camera"/>
-                <h3 class="section--title">Transmisje live</h3>
-                <p class="paragraph services">Nasze transmisje są oparte o doświadczenie oraz profesjonalny sprzęt będący nieodzowny elementem naszej pracy. Na przestrzeni dwóch lat, zrealizowaliśmy ok. 20 emisji live, głównie z wydarzeń sportowych. Do postprodukcji naszych materiałów, wykorzystujemy profesjonalne oprogramowanie, która pozwala nam tworzyć powtórki, zarządzać ujęciami, czy też nadawać w jakości FullHD.<p>
-            </div>
-            <div class="section--service">
-                <img src="images/video.svg" alt="camera"/>
-                <h3 class="section--title">Produkcja video</h3>
-                <p class="paragraph services">Tworzymy treści video, które mogą posłużyć do promowania właśnej marki osobistej lub sprzedaży produktu, usługi. Zapewniamy płynne oraz stabilne ujęcia, a na koniec profesjonalny montaż i obróbka materiału.<p>
-            </div>
-            <div class="section--service">
-                <img src="images/web.svg" alt="camera"/>
-                <h3 class="section--title">Strony internetowe</h3>
-                <p class="paragraph services">Tworzymy strony od A do Z. U nas nie ma mowy o powielaniu gotowych szablonów. Współpracujemy z doświadczonymi projektantami, którzy przygotowują unikatowe oraz wpełni spersonalizowane prototypy stron. Na etapie wdrażania, stosujemy najpopularniejszy system zarządzania treścią WordPress, który pozwoli na samodzielną edycję strony przez klienta bez znajomości kodu. Priorytetem dla nas jest również widoczność twojej strony w przeglądarce, dołożymy wszelkich starań, aby umieścić ją wysoko w wynikach wyszukiwania.<p>
-            </div>
-            <div class="section--service">
-                <img src="images/draw.svg" alt="camera"/>
-                <h3 class="section--title">Projektowanie graficzne</h3>
-                <p class="paragraph services">Planujesz założyć firmę? Być może masz design, który jest staroświecki i nie przykówa uwagi młodszych odbiorców. Korzystając z naszego doświadczenia oraz znajomości najswieższych trendów pomożemy Ci to zmienić. Oto co oferujemy: <p>
-                <div class="section--services" id="zaufali-nam">
-                    <div class="trustus-companys--bottom">
-                        <div class="design--info">
-                            <span class="wrapper">
-                                <img src="images/projectlogo.svg" alt="camera"/>
-                                <h3 class="section--title">Projekty logo</h3>
-                            </span>
-                        </div>
-                        <div class="design--info">
-                            <span class="wrapper">
-                                <img src="images/business-card.svg" alt="camera"/>
-                                <h3 class="section--title">Wizytówki</h3>
-                            </span>
-                        </div>
-                        <div class="design--info">
-                            <span class="wrapper">
-                                <img class="company--logo" src="images/Leaflets.svg" alt="camera"/>
-                                <h3 class="section--title">Ulotki</h3>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="trustus-companys--bottom">
-                        <div class="design--info">
-                            <span class="wrapper">
-                                <img src="images/posters.svg" alt="camera"/>
-                                <h3 class="section--title">Plakaty</h3>
-                            </span>
-                        </div>
-                        <div class="design--info">
-                            <span class="wrapper">
-                                <img src="images/roll-up.svg" alt="camera"/>
-                                <h3 class="section--title">Roll-up'y</h3>
-                            </span>
-                        </div>
-                        <div class="design--info">
-                            <span class="wrapper">
-                                <h3 class="section--title">I wiele, wiele innych...</h3>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="section--service">
-                <img src="images/like.svg" alt="camera"/>
-                <h3 class="section--title">Obsługa kanałów społecznościowych</h3>
-                <p class="paragraph services">Tworzymy spójne oraz kreatywne treści dla naszych klientów, począwszy od materiałów reklamowych, po kampanie Facebook ADS. Pomagamy nawiązać bliską relację z klientami, a także zwiększyć ich zaufanie. Twoja firmy zyskuje również możliwość dotarcia do kilkumilionowy społeczności.<p>
-            </div>
-            <div class="section--service">
-                <img src="images/google.svg" alt="camera"/>
-                <h3 class="section--title">Zarządzanie wizytówką Google</h3>
-                <p class="paragraph services">Posiadanie skutecznej oraz sprawdzonej wizytówki Google, potrafi dać znaczną przewagę nad konkurencją. Same jej założenie zazwyczaj przynosi marne efekty, ale zastosowanie odpowiednich praktych, podniesie Twoją widoczność w sieci nawet kilkukrotnie.<p>
-            </div>
-        </section>
-        <div class="subheader separator">
-            <h2>Zaufali nam</h2>
-            <img src="images/subheder-decoration.svg" alt="business logo"/>
+
+        <div class="section--service">
+          <img src="images/web.svg" alt="camera" />
+          <h3 class="section--title">Strony internetowe</h3>
+          <p class="paragraph services">
+            Tworzymy strony od A do Z. U nas nie ma mowy o powielaniu gotowych
+            szablonów. Współpracujemy z doświadczonymi projektantami, którzy
+            przygotowują unikatowe oraz wpełni spersonalizowane prototypy stron.
+            Na etapie wdrażania, stosujemy najpopularniejszy system zarządzania
+            treścią WordPress, który pozwoli na samodzielną edycję strony przez
+            klienta bez znajomości kodu. Priorytetem dla nas jest również
+            widoczność twojej strony w przeglądarce, dołożymy wszelkich starań,
+            aby umieścić ją wysoko w wynikach wyszukiwania.
+          </p>
         </div>
-        <section class="section--trustus" id="zaufali-nam">
-            <div class="trustus-companys--above">
-                <div class="company--small">
-                    <img class="company--logo" src="images/mont-inox.svg" alt="camera"/>
-                </div>
-                <div class="company--big">
-                    <img class="company--logo" src="images/pilkarska-murawa.svg" alt="camera"/>
-                </div>
+        <div class="section--service">
+          <img src="images/draw.svg" alt="camera" />
+          <h3 class="section--title">Projektowanie graficzne</h3>
+          <p class="paragraph services">
+            Planujesz założyć firmę? Być może masz design, który jest
+            staroświecki i nie przykówa uwagi młodszych odbiorców. Korzystając z
+            naszego doświadczenia oraz znajomości najswieższych trendów pomożemy
+            Ci to zmienić. Oto co oferujemy:
+          </p>
+          <p></p>
+          <div class="section--services" id="zaufali-nam">
+            <div class="trustus-companys--bottom">
+              <div class="design--info">
+                <span class="wrapper">
+                  <img src="images/projectlogo.svg" alt="camera" />
+                  <h3 class="section--title">Projekty logo</h3>
+                </span>
+              </div>
+              <div class="design--info">
+                <span class="wrapper">
+                  <img src="images/business-card.svg" alt="camera" />
+                  <h3 class="section--title">Wizytówki</h3>
+                </span>
+              </div>
+              <div class="design--info">
+                <span class="wrapper">
+                  <img
+                    class="company--logo"
+                    src="images/Leaflets.svg"
+                    alt="camera"
+                  />
+                  <h3 class="section--title">Ulotki</h3>
+                </span>
+              </div>
             </div>
             <div class="trustus-companys--bottom">
-                <div class="company--small">
-                    <img class="company--logo" src="images/resto-wiki.svg" alt="camera"/>
-                </div>
-                <div class="company--small">
-                    <img class="company--logo" src="images/hotel-wiki.svg" alt="camera"/>
-                </div>
-                <div class="company--small">
-                    <img class="company--logo" src="images/ekoball.svg" alt="camera"/>
-                </div>
-                <div class="company--small" id="new-company">
-                    <img class="company--logo" src="images/mont-inox.svg" alt="camera"/>
-                  </div>
+              <div class="design--info">
+                <span class="wrapper">
+                  <img src="images/posters.svg" alt="camera" />
+                  <h3 class="section--title">Plakaty</h3>
+                </span>
+              </div>
+              <div class="design--info">
+                <span class="wrapper">
+                  <img src="images/roll-up.svg" alt="camera" />
+                  <h3 class="section--title">Roll-up'y</h3>
+                </span>
+              </div>
+              <div class="design--info">
+                <span class="wrapper">
+                  <h3 class="section--title">I wiele, wiele innych...</h3>
+                </span>
+              </div>
             </div>
-        </section>
-        <div class="subheader separator">
-            <h2>Opinie</h2>
-            <img src="images/subheder-decoration.svg" alt="business logo"/>
+          </div>
         </div>
-        <section id="opinie">
-            <div class="opinions">
-                <div class="opinion">
-                    <img class="client" src="images/joedoe.png" alt="client"/>
-                    <h3 style="color: #69E6A6"class="section--title">Joe Doe</h3>
-                    <p class="description services">Posiadanie skutecznej oraz sprawdzonej wizytówki Google, potrafi dać znaczną przewagę nad konkurencją. Same jej założenie zazwyczaj przynosi marne efekty, ale zastosowanie odpowiednich praktych, podniesie Twoją widoczność w sieci nawet kilkukrotnie.<p>
-                    <img src="images/review.svg" alt="client review"/>
-                </div>
-                <div class="opinion">
-                    <img class="client" src="images/joedoe.png" alt="client"/>
-                    <h3 style="color: #69E6A6"class="section--title">Joe Doe</h3>
-                    <p class="description services">Posiadanie skutecznej oraz sprawdzonej wizytówki Google, potrafi dać znaczną przewagę nad konkurencją. Same jej założenie zazwyczaj przynosi marne efekty, ale zastosowanie odpowiednich praktych, podniesie Twoją widoczność w sieci nawet kilkukrotnie.<p>
-                    <img src="images/review.svg" alt="client review"/>
-                </div>
-                <div class="opinion">
-                    <img class="client" src="images/joedoe.png" alt="client"/>
-                    <h3 style="color: #69E6A6"class="section--title">Joe Doe</h3>
-                    <p class="description services">Posiadanie skutecznej oraz sprawdzonej wizytówki Google, potrafi dać znaczną przewagę nad konkurencją. Same jej założenie zazwyczaj przynosi marne efekty, ale zastosowanie odpowiednich praktych, podniesie Twoją widoczność w sieci nawet kilkukrotnie.<p>
-                    <img src="images/review.svg" alt="client review"/>
-                </div>
-            </div>
-        </section>
-        <div class="subheader separator">
-            <h2>Kontakt</h2>
-            <img src="images/subheder-decoration.svg" alt="business logo"/>
+        <div class="section--service">
+          <img src="images/like.svg" alt="camera" />
+          <h3 class="section--title">Obsługa kanałów społecznościowych</h3>
+          <p class="paragraph services">
+            Tworzymy spójne oraz kreatywne treści dla naszych klientów,
+            począwszy od materiałów reklamowych, po kampanie Facebook ADS.
+            Pomagamy nawiązać bliską relację z klientami, a także zwiększyć ich
+            zaufanie. Twoja firmy zyskuje również możliwość dotarcia do
+            kilkumilionowy społeczności.
+          </p>
         </div>
-        <section id="kontakt">
-            <form onsubmit="validateForm()" class="form" id="contactform" action="https://formsubmit.io/send/patrykwot22@wp.pl" method="POST">
-                <div class="form-left">
-                    <input
-                        class="inputs"
-                        type="text"
-                        name="lname" 
-                        placeholder="Imię"
-                        required
-                    >
-                    <input
-                        class="inputs" 
-                        type="text" name="lname" 
-                        placeholder="E-mail" 
-                        required
-                    >
-                    <input
-                        class="inputs" 
-                        type="text"     
-                        name="lname" 
-                        placeholder="Telefon" 
-                        required
-                    >
-                </div>
-                <div class="form-right">
-                    <textarea class="textarea" name="message" placeholder="Wpisz tutaj swoją wiadomość" required></textarea>
-                    </textarea>
-                    <button
-                        class="button" 
-                        type="submit">
-                        Wyślij wiadomość
-                    </button>
-                </div>
-                    <input
-                        name="_redirect"
-                        type="hidden"
-                        id="name"
-                        value="https://your website url">
-            </form>
-        </section>
-        <div class="privacy-notice" id="privacyNotice">
-            Ta strona wykorzystuje pliki cookies oraz inne technologie śledzące w celach statystycznych oraz marketingowych. Korzystanie z witryny oznacza zgodę na ich stosowanie. Więcej informacji znajdziesz w naszej <a href="/polityka-prywatnosci">polityce prywatności</a>.
-            <button class="privacy-notice__button" id="privacyNoticeButton">OK</button>
-        </div>          
+
+        <div class="section--service">
+          <img src="images/google.svg" alt="camera" />
+          <h3 class="section--title">Zarządzanie wizytówką Google</h3>
+          <p class="paragraph services">
+            Posiadanie skutecznej oraz sprawdzonej wizytówki Google, potrafi dać
+            znaczną przewagę nad konkurencją. Same jej założenie zazwyczaj
+            przynosi marne efekty, ale zastosowanie odpowiednich praktych,
+            podniesie Twoją widoczność w sieci nawet kilkukrotnie.
+          </p>
+        </div>
+      </section>
+      <div class="subheader separator">
+        <h2>Zaufali nam</h2>
+        <img src="images/subheder-decoration.svg" alt="business logo" />
+      </div>
+      <section class="section--trustus" id="zaufali-nam">
+        <div class="trustus-companys--above">
+          <div class="company--small">
+            <img
+              class="company--logo"
+              src="images/mont-inox.svg"
+              alt="camera"
+            />
+          </div>
+          <div class="company--big">
+            <img
+              class="company--logo"
+              src="images/pilkarska-murawa.svg"
+              alt="camera"
+            />
+          </div>
+        </div>
+        <div class="trustus-companys--bottom">
+          <div class="company--small">
+            <img
+              class="company--logo"
+              src="images/resto-wiki.svg"
+              alt="camera"
+            />
+          </div>
+          <div class="company--small">
+            <img
+              class="company--logo"
+              src="images/hotel-wiki.svg"
+              alt="camera"
+            />
+          </div>
+          <div class="company--small">
+            <img class="company--logo" src="images/ekoball.svg" alt="camera" />
+          </div>
+          <div class="company--small" id="new-company">
+            <img
+              class="company--logo"
+              src="images/mont-inox.svg"
+              alt="camera"
+            />
+          </div>
+        </div>
+      </section>
+      <div class="subheader separator">
+        <h2>Opinie</h2>
+        <img src="images/subheder-decoration.svg" alt="business logo" />
+      </div>
+      <section id="opinie">
+        <div class="opinions">
+          <div class="opinion">
+            <img class="client" src="images/joedoe.png" alt="client" />
+            <h3 style="color: #69e6a6" class="section--title">Joe Doe</h3>
+            <p class="description services">
+              Posiadanie skutecznej oraz sprawdzonej wizytówki Google, potrafi
+              dać znaczną przewagę nad konkurencją. Same jej założenie zazwyczaj
+              przynosi marne efekty, ale zastosowanie odpowiednich praktych,
+              podniesie Twoją widoczność w sieci nawet kilkukrotnie.
+            </p>
+            <p>
+              <img src="images/review.svg" alt="client review" />
+            </p>
+          </div>
+
+          <div class="opinion">
+            <img class="client" src="images/joedoe.png" alt="client" />
+            <h3 style="color: #69e6a6" class="section--title">Joe Doe</h3>
+            <p class="description services">
+              Posiadanie skutecznej oraz sprawdzonej wizytówki Google, potrafi
+              dać znaczną przewagę nad konkurencją. Same jej założenie zazwyczaj
+              przynosi marne efekty, ale zastosowanie odpowiednich praktych,
+              podniesie Twoją widoczność w sieci nawet kilkukrotnie.
+            </p>
+            <p>
+              <img src="images/review.svg" alt="client review" />
+            </p>
+          </div>
+
+          <div class="opinion">
+            <img class="client" src="images/joedoe.png" alt="client" />
+            <h3 style="color: #69e6a6" class="section--title">Joe Doe</h3>
+            <p class="description services">
+              Posiadanie skutecznej oraz sprawdzonej wizytówki Google, potrafi
+              dać znaczną przewagę nad konkurencją. Same jej założenie zazwyczaj
+              przynosi marne efekty, ale zastosowanie odpowiednich praktych,
+              podniesie Twoją widoczność w sieci nawet kilkukrotnie.
+            </p>
+            <p>
+              <img src="images/review.svg" alt="client review" />
+            </p>
+          </div>
+        </div>
+      </section>
+      <div class="subheader separator">
+        <h2>Kontakt</h2>
+        <img src="images/subheder-decoration.svg" alt="business logo" />
+      </div>
+      <section id="kontakt">
+        <form
+          class="form"
+          id="contactform"
+          action="https://formsubmit.io/send/patrykwot22@wp.pl"
+          method="POST"
+        >
+        <input name="_redirect" type="hidden" id="name" value="https://aplon.com.pl/thanks.html">
+          <div class="form-left">
+            <input
+              class="inputs"
+              type="text"
+              name="lname"
+              placeholder="Imię"
+              required
+            />
+            <input
+              class="inputs"
+              type="text"
+              name="lname"
+              placeholder="E-mail"
+              required
+            />
+            <input
+              class="inputs"
+              type="text"
+              name="lname"
+              placeholder="Telefon"
+              required
+            />
+          </div>
+          <div class="form-right">
+            <textarea
+              class="textarea"
+              name="message"
+              placeholder="Wpisz tutaj swoją wiadomość"
+              required
+            ></textarea>
+            <button class="button" type="submit">Wyślij wiadomość</button>
+          </div>
+        </form>
+      </section>
+      <!-- <div class="privacy-notice" id="privacyNotice">
+        Ta strona wykorzystuje pliki cookies oraz inne technologie śledzące w
+        celach statystycznych oraz marketingowych. Korzystanie z witryny oznacza
+        zgodę na ich stosowanie. Więcej informacji znajdziesz w naszej
+        <a href="/polityka-prywatnosci">polityce prywatności</a>.
+        <button class="privacy-notice__button" id="privacyNoticeButton">
+          OK
+        </button> -->
+      </div>
     </main>
     <footer>
-        <div class="footer--container">
-            <a class="footer--element" href="#o-nas">polityka prywatności</a>
-        </div>
-        <img src="images/logo-footer.svg" alt="our's logo"/>
-        <p class="paragraph">2023 Wszelkie prawa zastrzeżone.</p>
+      <div class="footer--container">
+        <a class="footer--element" href="#o-nas">polityka prywatności</a>
+      </div>
+      <img src="images/logo-footer.svg" alt="our's logo" />
+      <p class="paragraph">2023 Wszelkie prawa zastrzeżone.</p>
     </footer>
-</body>
+  </body>
 </html>
