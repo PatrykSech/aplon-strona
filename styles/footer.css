@@ -6,6 +6,7 @@ footer {
     grid-template-columns: 1fr;
     gap: 29px;
     justify-items: center;
+    margin-top: auto;
 }
 
 
@@ -15,4 +16,13 @@ footer {
     color: white;
     text-decoration: none;
     margin: 0 27px;
+}
+
+.footer-rights {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    word-wrap: break-word;
+    width: 66%;
+    margin: 0 auto;
 }
