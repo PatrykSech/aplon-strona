@@ -8,6 +8,11 @@
     border-radius: 30px;
     padding: 0 43px 22px 43px;
     margin-top: 50px;
+    transition: transform 0.3s ease;
+}
+
+.opinion:hover {
+    transform: scale(1.04);
 }
 
 .client {
