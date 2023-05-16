@@ -1,3 +1,16 @@
+const element = document.querySelector('.typing');
+const text = element.innerHTML;
+element.innerHTML = '';
+
+for (let i = 0; i < text.length; i++) {
+  setTimeout(() => {
+    element.innerHTML += text.charAt(i);
+    if (i === text.length - 1) {
+      element.classList.remove('typing');
+    }
+  }, i * 100);
+}
+
 const links = document.querySelectorAll('a[href^="#"]');
 links.forEach(link => {
   link.addEventListener('click', (event) => {
@@ -34,3 +47,5 @@ const privacyNoticeButton = document.getElementById("privacyNoticeButton");
 privacyNoticeButton.addEventListener("click", () => {
   privacyNotice.classList.add("privacy-notice--hidden");
 });
+
+console.log("hej")

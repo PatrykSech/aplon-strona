@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./styles/subpages.css" />
+    <link rel="stylesheet" href="./styles/form.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/nav.css" />
+    <link rel="stylesheet" href="./styles/separator.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>APLON - Polityka prywatności</title>
+</head>
+<body>
+    <nav  class="nav-container">
+        <div class="nav-wrapper">
+          <img src="images/logo-ap.svg" alt="business logo short" />
+          <a class="nav--element" href="index.html">Strona główna</a>
+          <a class="nav--element active" href="index.html#kontakt">Kontakt</a>
+        </div>
+    </nav>
+    <main>
+        <div class="separator">
+            <h2>Błąd 404</h2>
+            <img src="images/subheder-decoration.svg" alt="business logo" />
+        </div>
+        <p class="paragraph">Przepraszamy, nie udało nam się znaleźć stronę, którą szukasz...</br><strong>Napisz jak możemy ci pomóc lub sprawdź naszą stronę główną.</strong></p>
+        <section id="kontakt">
+            <form
+              class="form"
+              id="contactform"
+              action="https://formsubmit.io/send/patrykwot22@wp.pl"
+              method="POST"
+            >
+            <input name="_redirect" type="hidden" id="name" value="https://aplon.com.pl/thanks.html">
+              <div class="form-left">
+                <input
+                  class="inputs"
+                  type="text"
+                  name="lname"
+                  placeholder="Imię"
+                  required
+                />
+                <input
+                  class="inputs"
+                  type="text"
+                  name="lname"
+                  placeholder="E-mail"
+                  required
+                />
+                <input
+                  class="inputs"
+                  type="text"
+                  name="lname"
+                  placeholder="Telefon"
+                  required
+                />
+              </div>
+              <div class="form-right">
+                <textarea
+                  class="textarea"
+                  name="message"
+                  placeholder="Wpisz tutaj swoją wiadomość"
+                  required
+                ></textarea>
+                <button class="button" type="submit">Wyślij wiadomość</button>
+              </div>
+            </form>
+          </section>
+    </main>
+    <footer>
+        <div class="footer--container">
+          <a class="footer--element" href="privacy-policy.html">polityka prywatności</a>
+        </div>
+        <img src="images/logo-footer.svg" alt="our's logo" />
+        <p class="footer-rights">2023 Wszelkie prawa zastrzeżone.</p>
+    </footer>
+</body>
+</html>
